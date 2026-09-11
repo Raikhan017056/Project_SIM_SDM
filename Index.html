@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Kepegawaian (Supabase Database)</title>
+    <!-- CDN Supabase Client v2 -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HALAMAN LOGIN -->
+    <div id="login-container">
+        <div class="login-card">
+            <h2>Login SIM-SDM</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn">Masuk Sistem</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- HALAMAN UTAMA APLIKASI -->
+    <div id="app-container" class="hidden">
+        <aside>
+            <div class="sidebar-brand">
+                <span>⚡ SIM-SDM Supabase</span>
+            </div>
+            <ul class="sidebar-menu" id="nav-menu">
+                <!-- Dimuat dinamis berdasarkan role -->
+            </ul>
+            <div class="sidebar-footer">
+                <button class="btn btn-logout" id="btn-logout">Logout</button>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <h3 id="page-title">Dashboard</h3>
+                <div class="user-profile" id="user-profile-label">User: -</div>
+            </header>
+            <div class="content-body" id="main-content">
+                <!-- Konten dinamis -->
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
