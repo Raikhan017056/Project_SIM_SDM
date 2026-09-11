@@ -1,6 +1,6 @@
 // --- KONFIGURASI KONEKSI SUPABASE ---
-const SUPABASE_URL = 'https://mqaavjagzcyqugewdqux.supabase.co'; 
-const SUPABASE_ANON_KEY = 'sb_publishable_VloryJ3H8MPltj_nQ0JoBA_sBuhsP_J'; // Kunci API Anonim Anda
+const SUPABASE_URL = 'https://fgiqdltvyakrqlmqntmy.supabase.co'; 
+const SUPABASE_ANON_KEY = 'sb_publishable_-96kNxkpROh3xzXf2x4Y3w_b3yQWNaX'; // Kunci API Anonim Anda
 
 // Inisialisasi Klien Supabase
 const { createClient } = supabase;
