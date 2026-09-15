@@ -54,7 +54,7 @@ function initApp() {
 
 function renderMenu() {
     const navMenu = document.getElementById('nav-menu');
-    let menuHtml = `<li><a href="#" class="active" onclick="loadDashboard()">📊 Dashboard</a></li>`;
+    let menuHtml = `<li><a href="#" class="active" onclick="loadDashboard()">📊 DASHBOARD</a></li>`;
 
     if (currentUser.role === 'admin') {
         menuHtml += `<li><a href="#" onclick="loadManajemenUser()">👥 Manajemen User</a></li>`;
