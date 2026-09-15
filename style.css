@@ -119,11 +119,12 @@ aside {
     flex-direction: column;
 }
 
+/* BAGIAN MERAH (Logo / Brand Sidebar) */
 .sidebar-brand {
     padding: 20px;
     font-size: 18px;
     font-weight: bold;
-    color: var(--primary);
+    color: #dc2626; /* Diubah menjadi merah */
     border-bottom: 1px solid #e2e8f0;
 }
 
@@ -168,18 +169,23 @@ main {
     overflow-y: auto;
 }
 
+/* BAGIAN KUNING (Header Atas) */
 header {
-    background-color: var(--card-bg);
+    background-color: #fef08a; /* Warna kuning cerah */
     padding: 15px 30px;
-    border-bottom: 1px solid #e2e8f0;
+    border-bottom: 1px solid #fde047;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+header h3 {
+    color: #713f12; /* Warna teks agak gelap agar kontras dan mudah dibaca di atas kuning */
+}
+
 .user-profile {
     font-weight: 600;
-    color: #1e293b;
+    color: #713f12;
 }
 
 .content-body {
@@ -268,4 +274,3 @@ table th {
 }
 .btn-edit { background-color: var(--warning); color: white; }
 .btn-delete { background-color: var(--danger); color: white; }
-
